@@ -27,8 +27,6 @@
                     </video>
                     <div class="controls">
                         <button id="playPause" class="btn play-pause text-white">
-                            <!-- <i id="playPauseIcon" class="fas fa-play">
-                        </i> -->
                             <img id="playPauseIcon" src="./images/Play_button.png" alt="Play"
                                 class="video-image" />
 
@@ -68,7 +66,6 @@
                     <h6>Marketing Director</h6>
                 </div>
             </div>
-            <!-- Add more slides as needed -->
         </div>
     </div>
 </section>

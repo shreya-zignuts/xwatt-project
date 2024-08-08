@@ -47,27 +47,6 @@
     <!-- owlcarousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-    <!-- Optional: Include Google reCAPTCHA script -->
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
-    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LcCiCAqAAAAACWw2WdryBpRWmMgI7ZtW-UVexOW"></script> -->
-
-    <!-- Optional: Custom JS for reCAPTCHA -->
-    <!-- <script type="text/javascript">
-        $('#contact-form').submit(function(event) {
-            event.preventDefault();
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute("6LcCiCAqAAAAACWw2WdryBpRWmMgI7ZtW-UVexOW", {
-                    action: 'subscribe_newsletter'
-                }).then(function(token) {
-                    $('#contact-form').prepend(
-                        '<input type="hidden" name="g-recaptcha-response" value="' + token +
-                        '">');
-                    $('#contact-form').unbind('submit').submit();
-                });
-            });
-        });
-    </script> -->
 </body>
 
 </html>

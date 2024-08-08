@@ -21,15 +21,6 @@
                                 <img class="img-dark" src="./images/logo_dark.png" alt="footer-xwatt-logo" />
                             </div>
                         </div>
-                        <!-- paragraph -->
-                        <!-- <div class="address-box">
-                        <p class="address">
-                            Figma ipsum component variant main layer. Comment pen figjam
-                            opacity vertical figma vector flows fill. Figma ipsum component
-                            variant main layer. Comment pen figjam opacity vertical figma
-                            vector flows fill.
-                        </p>
-                    </div> -->
                         <!-- address -->
                         <div class="d-flex flex-column  align-content-center gap-4 mt-md-5 mt-4">
                             <div class="address-box align-items-start d-flex gap-2 align-content-center"
