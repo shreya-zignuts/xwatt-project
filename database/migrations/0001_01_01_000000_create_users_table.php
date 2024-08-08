@@ -13,11 +13,15 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->string('name', 64);
+            $table->string('company_name', 64)->nullable();
+            $table->string('country_code', 5)->default('+91');
+            $table->bigInteger('phone_number');
+            $table->string('email', 32)->nullable();
+            $table->enum('occupation_type', ['D', 'EPC', 'EU'])->comment('Disributor', 'EPC', 'End User')->nullable();
+            $table->enum('phase', ['SP', 'TP'])->comment('Single Phase', 'Three Phase')->nullable();
+            $table->enum('quantity_range', ['10-50', '50-100', '100-500', '500+'])->nullable();
+            $table->string('gst_number', 15)->nullable();
             $table->timestamps();
         });
 
